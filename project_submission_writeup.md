@@ -43,7 +43,9 @@ Nvidia proposes a powerful neural network architecture in the paper [End to End 
 
 The architecture is showed as follows:
 
+<p align="center"> 
 <img src = "https://github.com/wenbo5565/appliedproject_behavioralcloning/blob/master/image/cnn.JPG" height=30%>
+</p>
 
 #### 2. Attempts to reduce overfitting in the model
 
@@ -53,7 +55,9 @@ In addition, I also experimented L2 regularization techniques. The model with L2
 
 So I keep a neural network without regularization.
 
+<p align="center"> 
 <img src="https://github.com/wenbo5565/appliedproject_behavioralcloning/blob/master/image/loss.png">
+</p align="center"> 
 
 #### 3. Model parameter tuning
 
