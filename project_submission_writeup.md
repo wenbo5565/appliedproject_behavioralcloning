@@ -109,3 +109,7 @@ After preliminary training and testing, we found that the vechile performs not w
 We finally randomly shuffled the data set and put 20% of the data into a validation set. 
 
 We used this training data for training the model. The validation set helped determine if the model was over or under fitting. The ideal number of epochs was 15 as evidenced by the training/validation loss figure. We used an Adam optimizer so that manually training the learning rate wasn't necessary.
+
+### Simulation Test
+
+We test the final model in automous mode in Udacity's simulator. The trained neural network model drives the vechile well without leaving away drivable way. A sample video recording can be found at [autonomous recording](https://github.com/wenbo5565/appliedproject_behavioralcloning/blob/master/autonomous%20mode%20recording.mp4)
