@@ -49,7 +49,7 @@ In addition, I also experimented L2 regularization techniques. The model with L2
 
 So I keep a neural network without regularization.
 
-<img https://github.com/wenbo5565/appliedproject_behavioralcloning/blob/master/image/loss.png>
+<img src="https://github.com/wenbo5565/appliedproject_behavioralcloning/blob/master/image/loss.png">
 
 #### 3. Model parameter tuning
 
