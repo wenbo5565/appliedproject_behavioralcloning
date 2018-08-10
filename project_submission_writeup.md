@@ -92,12 +92,15 @@ To capture good driving behavior, we first record two laps on track one using ce
 
 To avoid biases in the data set (much more left turns than right turns) , we also drive the car on the reversed direction. Here is an example of flipped images.
 
+<p align="center"> 
 <img src ="https://github.com/wenbo5565/appliedproject_behavioralcloning/blob/master/image/reverse.jpg">
-
+</p>
 
 After preliminary training and testing, we found that the vechile performs not well in areas that lane marking is not well defined. So we collect more data specific to those areas to augment our dataset. Here is an example of such an area.
 
+<p align="center"> 
 <img src ="https://github.com/wenbo5565/appliedproject_behavioralcloning/blob/master/image/unclearmarking.jpg">
+</p>
 
 We finally randomly shuffled the data set and put 20% of the data into a validation set. 
 
