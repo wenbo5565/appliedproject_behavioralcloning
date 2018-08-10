@@ -86,7 +86,9 @@ Plese see viasulizaiton of the architecture as above.
 
 To capture good driving behavior, we first record two laps on track one using center lane driving. Here is an example image of center lane driving:
 
-<img align="left" src ="https://github.com/wenbo5565/appliedproject_behavioralcloning/blob/master/image/center1.jpg">
+<p align="center"> 
+    <img src ="https://github.com/wenbo5565/appliedproject_behavioralcloning/blob/master/image/center1.jpg">
+</p>
 
 To avoid biases in the data set (much more left turns than right turns) , we also drive the car on the reversed direction. Here is an example of flipped images.
 
