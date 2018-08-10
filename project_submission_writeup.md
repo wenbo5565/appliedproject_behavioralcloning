@@ -69,52 +69,34 @@ For details about how I created the training data, see the next section.
 
 #### 1. Solution Design Approach
 
-The overall strategy for deriving a model architecture was to ...
+In order to derive an effective architecture, we leverage bias-variance trade-off in the training process. Our general philosphy is
 
-My first step was to use a convolution neural network model similar to the ... I thought this model might be appropriate because ...
+ * Start from a simple model to see if training loss is satisfactory (small enough) to our project
+ * If training loss is large, then adding model complexity by increasing layers or neurons in the simple neural network
+ * If training loss is small but validation loss is large, it indicates our model suffers from high variance. We have to use regularization techniques to decrease the variance such as add dropout layers or penalization terms.
+ * If both training loss and validation loss are satisfactory, we test our model on the automous mode to see if the vehicle can drive autonomously around the track.
 
-In order to gauge how well the model was working, I split my image and steering angle data into a training and validation set. I found that my first model had a low mean squared error on the training set but a high mean squared error on the validation set. This implied that the model was overfitting. 
-
-To combat the overfitting, I modified the model so that ...
-
-Then I ... 
-
-The final step was to run the simulator to see how well the car was driving around track one. There were a few spots where the vehicle fell off the track... to improve the driving behavior in these cases, I ....
-
-At the end of the process, the vehicle is able to drive autonomously around the track without leaving the road.
+Since Nvidia has published a very powerful architecture as mentioned above, we directly start from its architecture. Fortunately this architecture performs very well for our project as well
 
 #### 2. Final Model Architecture
 
-The final model architecture (model.py lines 18-24) consisted of a convolution neural network with the following layers and layer sizes ...
-
-Here is a visualization of the architecture (note: visualizing the architecture is optional according to the project rubric)
-
-![alt text][image1]
+Plese see viasulizaiton of the architecture as above.
 
 #### 3. Creation of the Training Set & Training Process
 
-To capture good driving behavior, I first recorded two laps on track one using center lane driving. Here is an example image of center lane driving:
+To capture good driving behavior, we first record two laps on track one using center lane driving. Here is an example image of center lane driving:
 
 ![alt text][image2]
 
-I then recorded the vehicle recovering from the left side and right sides of the road back to center so that the vehicle would learn to .... These images show what a recovery looks like starting from ... :
-
-![alt text][image3]
-![alt text][image4]
-![alt text][image5]
-
-Then I repeated this process on track two in order to get more data points.
-
-To augment the data sat, I also flipped images and angles thinking that this would ... For example, here is an image that has then been flipped:
+To avoid biases in the data set (much more left turns than right turns) , we also drive the car on the reversed direction. Here is an example of flipped images.
 
 ![alt text][image6]
+
+
+After preliminary training and testing, we found that the vechile performs not well in areas that lane marking is not well defined. So we collect more data specific to those areas to augment our dataset. Here is an example of such an area.
+
 ![alt text][image7]
 
-Etc ....
+We finally randomly shuffled the data set and put 20% of the data into a validation set. 
 
-After the collection process, I had X number of data points. I then preprocessed this data by ...
-
-
-I finally randomly shuffled the data set and put Y% of the data into a validation set. 
-
-I used this training data for training the model. The validation set helped determine if the model was over or under fitting. The ideal number of epochs was Z as evidenced by ... I used an adam optimizer so that manually training the learning rate wasn't necessary.
+We used this training data for training the model. The validation set helped determine if the model was over or under fitting. The ideal number of epochs was 15 as evidenced by the training/validation loss figure. We used an Adam optimizer so that manually training the learning rate wasn't necessary.
