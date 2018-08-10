@@ -86,16 +86,16 @@ Plese see viasulizaiton of the architecture as above.
 
 To capture good driving behavior, we first record two laps on track one using center lane driving. Here is an example image of center lane driving:
 
-![alt text][image2]
+<img src = "https://github.com/wenbo5565/appliedproject_behavioralcloning/blob/master/image/center1.jpg">
 
 To avoid biases in the data set (much more left turns than right turns) , we also drive the car on the reversed direction. Here is an example of flipped images.
 
-![alt text][image6]
+<img src ="https://github.com/wenbo5565/appliedproject_behavioralcloning/blob/master/image/reverse.jpg">
 
 
 After preliminary training and testing, we found that the vechile performs not well in areas that lane marking is not well defined. So we collect more data specific to those areas to augment our dataset. Here is an example of such an area.
 
-![alt text][image7]
+<img src ="https://github.com/wenbo5565/appliedproject_behavioralcloning/blob/master/image/unclearmarking.jpg">
 
 We finally randomly shuffled the data set and put 20% of the data into a validation set. 
 
