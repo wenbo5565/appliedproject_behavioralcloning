@@ -39,7 +39,11 @@ The model.py file contains the code for training and saving the convolution neur
 
 #### 1. An appropriate model architecture has been employed
 
+Nvidia proposes a powerful neural network architecture in the paper [End to End Learning for Self-Driving Cars](https://images.nvidia.com/content/tegra/automotive/images/2016/solutions/pdf/end-to-end-dl-using-px.pdf). We leverage the same neural network as our task is very similar to theirs'.
 
+The architecture is showed as follows:
+
+<img src = "https://github.com/wenbo5565/appliedproject_behavioralcloning/blob/master/image/cnn.JPG>
 
 #### 2. Attempts to reduce overfitting in the model
 
