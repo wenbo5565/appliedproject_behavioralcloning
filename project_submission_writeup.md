@@ -43,7 +43,7 @@ Nvidia proposes a powerful neural network architecture in the paper [End to End 
 
 The architecture is showed as follows:
 
-<img src = "https://github.com/wenbo5565/appliedproject_behavioralcloning/blob/master/image/cnn.JPG" height=70%>
+<img src = "https://github.com/wenbo5565/appliedproject_behavioralcloning/blob/master/image/cnn.JPG" height=30%>
 
 #### 2. Attempts to reduce overfitting in the model
 
