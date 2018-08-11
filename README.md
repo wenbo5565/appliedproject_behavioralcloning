@@ -20,7 +20,7 @@ Generally we start from the LeNet-5 since it has been shown as an effective neur
 
 ##### Architecture for this project
 
-Fortunately for this specific task, we don't need to start from LeNet-5 since Nvidia has published a very effective neural network architecture for self-driving cars. We start from this neural network and it turns out to be an effective architecture for our project.
+Fortunately for this specific task, we don't need to start from LeNet-5 since Nvidia has published a very effective neural network architecture for self-driving cars in its paper [End to End Learning for Self-Driving Cars](https://images.nvidia.com/content/tegra/automotive/images/2016/solutions/pdf/end-to-end-dl-using-px.pdf). We start from this neural network and it turns out to be an effective architecture for our project.
 
 <p align='center'>
   <img src = "https://github.com/wenbo5565/appliedproject_behavioralcloning/blob/master/image/lenet.png" height="100%" width="80%">
