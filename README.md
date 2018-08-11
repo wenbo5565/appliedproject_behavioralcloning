@@ -8,7 +8,7 @@ Deep learning has been proven as a powerful tool to recognize patterns in images
 
 Here is two clips of the car under the autonomous mode.
 
- <img src = "https://github.com/wenbo5565/appliedproject_behavioralcloning/blob/master/image/gif1.gif" height="100%" width="80%"> |  <img src = "https://github.com/wenbo5565/appliedproject_behavioralcloning/blob/master/image/gif2.gif" height="100%" width="80%">
+ <img src = "https://github.com/wenbo5565/appliedproject_behavioralcloning/blob/master/image/gif1.gif" height="100%" width="80%"> |  <img src = "https://github.com/wenbo5565/appliedproject_behavioralcloning/blob/master/image/gif2.gif" height="60%" width="60%">
 
 #### 2. Network Architecture
 
