@@ -32,16 +32,18 @@ We split the entire dataset into training set (80%) and validation set (20%). We
   <img src = "https://github.com/wenbo5565/appliedproject_behavioralcloning/blob/master/image/loss.png" height="40%" width="40%">
 </p>
 
+From the figure above, we can see that the model suffers from high variance. To remedy this problem, we seek to add l2 penalization to all weights in the neural network. We observe that regularization decreases the variance, the regularized model is worse than the un-regularized one under autonomous mode in the simulator. So we keep the un-regularized network as our final model.
 
-#### Link for submission purpose only
-==========================
+#### 4. Testing
 
-[drive.py](https://github.com/wenbo5565/appliedproject_behavioralcloning/blob/master/drive.py)
+We deploy the trained neural network in the simulator to drive the car autonomously. The result demonstrate that the trained model can effectively drive the car without leaving away the road.
 
-[model.py](https://github.com/wenbo5565/appliedproject_behavioralcloning/blob/master/model.py)
+You can find related technical details at
 
-[model.h5](https://github.com/wenbo5565/appliedproject_behavioralcloning/blob/master/model.h5)
+[model.py](https://github.com/wenbo5565/appliedproject_behavioralcloning/blob/master/model.py) - Python code for building the CNN model
 
-[video.mp4 - recording of one lap of automous drive](https://github.com/wenbo5565/appliedproject_behavioralcloning/blob/master/autonomous%20mode%20recording.mp4)
+[model.h5](https://github.com/wenbo5565/appliedproject_behavioralcloning/blob/master/model.h5) - Trained CNN model
 
-[written summary](https://github.com/wenbo5565/appliedproject_behavioralcloning/blob/master/project_submission_writeup.md)
+[video.mp4 - recording of one lap of automous drive] - A video clip demonstrating the autonomous test (https://github.com/wenbo5565/appliedproject_behavioralcloning/blob/master/autonomous%20mode%20recording.mp4)
+
+[written summary](https://github.com/wenbo5565/appliedproject_behavioralcloning/blob/master/project_submission_writeup.md) - Technical summary
