@@ -6,6 +6,8 @@ Deep learning has been proven as a powerful tool to recognize patterns in images
 
 Here is a clip of the car in the autonomous mode.
 
+#### Network Architecture
+
 #### Link for submission purpose only
 ==========================
 
