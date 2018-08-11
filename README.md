@@ -44,6 +44,6 @@ You can find related technical details at
 
 [model.h5](https://github.com/wenbo5565/appliedproject_behavioralcloning/blob/master/model.h5) - Trained CNN model
 
-[video.mp4 - recording of one lap of automous drive] - A video clip demonstrating the autonomous test (https://github.com/wenbo5565/appliedproject_behavioralcloning/blob/master/autonomous%20mode%20recording.mp4)
+[video.mp4 - recording of one lap of automous drive]  (https://github.com/wenbo5565/appliedproject_behavioralcloning/blob/master/autonomous%20mode%20recording.mp4) - - A video clip demonstrating the autonomous test
 
 [written summary](https://github.com/wenbo5565/appliedproject_behavioralcloning/blob/master/project_submission_writeup.md) - Technical summary
