@@ -8,7 +8,11 @@ Here is a clip of the car in the autonomous mode.
 
 #### Network Architecture
 
-Generally we start from the LeNet-5 since it has been shown as an effective neural network for image recognition task.
+##### General strategy to find a solution architecture
+
+Generally we start from the LeNet-5 since it has been shown as an effective neural network for image recognition task. We then use train
+
+##### Architecture for this project
 
 #### Link for submission purpose only
 ==========================
