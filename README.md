@@ -4,7 +4,7 @@
 
 Deep learning has been proven as a powerful tool to recognize patterns in images. In this project, we aim to build a convolutional neural network (CNN) to map image pixel values to steering angles for an autonomous car in a simulator. We collect data by driving the car manually in the simulator and recording both the images and angles. We train the CNN on an AWS EC2 instance with GPU enabled. To test the effectiveness of our CNN model, we test it in the simulator in an autonomous mode meaning the model takes image as an input and outputs the steering angles to control the car.
 
-Here is a clip of the car in an autonomous mode.
+Here is a clip of the car in the autonomous mode.
 
 #### Link for submission purpose only
 ==========================
