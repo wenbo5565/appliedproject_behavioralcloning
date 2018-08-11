@@ -28,7 +28,7 @@ Fortunately for this specific task, we don't need to start from LeNet-5 since Nv
 
 #### 3. Model Building
 
-We split the entire dataset into training set (80%) and validation set (20%). We use the Adam optimizer to adaptively set the step length in the optimization algorithm. Additionly we divide the training set into batches, each of which consists of 32 samples. We train the model for 14 epoches as the validation loss starts to increase after 14 epoches.
+We split the entire dataset into training set (80%) and validation set (20%). We use the Adam optimizer to adaptively set the step length in the optimization algorithm. Additionly we divide the training set into batches, each of which consists of 32 samples. We train the model for 13 epoches as the validation loss starts to increase after 13 epoches.
 
 <p align='center'>
   <img src = "https://github.com/wenbo5565/appliedproject_behavioralcloning/blob/master/image/loss.png" height="40%" width="40%">
