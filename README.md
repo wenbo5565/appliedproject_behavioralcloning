@@ -19,7 +19,7 @@ Here are two clips of the car under the autonomous mode.
 Generally we start from the LeNet-5 since it has been shown as an effective neural network for image recognition task. We then use bias-variance trade-off to firstly identify a satisfactory low-bias model and secondly leverage regularization techinique to further identify a satisfactory low bias and low variance model.
 
 <p align='center'>
-  <img src = "https://github.com/wenbo5565/appliedproject_behavioralcloning/blob/master/image/lenet.png" height="100%" width="80%">
+  <img src = "https://github.com/wenbo5565/appliedproject_behavioralcloning/blob/master/image/lenet.png" height="100%" width="60%">
 </p>
 
 ##### Architecture for this project
