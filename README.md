@@ -13,7 +13,7 @@ Here is a clip of the car in the autonomous mode.
 Generally we start from the LeNet-5 since it has been shown as an effective neural network for image recognition task. We then use bias-variance trade-off to firstly identify a satisfactory low-bias model and secondly leverage regularization techinique to further identify a satisfactory low bias and low variance model.
 
 <p align='center'>
-  <img src = "https://github.com/wenbo5565/appliedproject_behavioralcloning/blob/master/image/cnn.JPG" height="10%" width="70%">
+  <img src = "https://github.com/wenbo5565/appliedproject_behavioralcloning/blob/master/image/cnn.JPG" height="20%" width="80%">
 </p>
 
 ##### Architecture for this project
@@ -21,7 +21,7 @@ Generally we start from the LeNet-5 since it has been shown as an effective neur
 Fortunately for this specific task, we don't need to start from LeNet-5 since Nvidia has published a very effective neural network architecture for self-driving cars. We start from this neural network and it turns out to be an effective architecture for our project.
 
 <p align='center'>
-  <img src = "https://github.com/wenbo5565/appliedproject_behavioralcloning/blob/master/image/lenet.png">
+  <img src = "https://github.com/wenbo5565/appliedproject_behavioralcloning/blob/master/image/lenet.png" height="100%" width="40">
 </p>
 
 #### Link for submission purpose only
